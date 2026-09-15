@@ -12,3 +12,45 @@ aside {
     background-color: #111111;
     margin: 0%;
 }
+
+main {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100vh;
+    margin: 0%;
+    header {
+        display: flex;
+        height: 15vh;
+        align-items: center;
+    }
+
+    section {
+        height: 70%;
+        display: flex;
+        article{
+            flex-direction: column;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+footer {
+    background-color: #F3F4F6;
+    height: 15vh;
+    display: flex;
+}
+
+.textogris {
+    color: #1A1A1A;
+}
+
+.textoblanco {
+    color: #FFFFFF;
+}
+
+img {
+    height: 60%;
+}
